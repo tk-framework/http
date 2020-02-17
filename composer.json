@@ -1,0 +1,33 @@
+{
+	"name": "tk-framework/http",
+	"description": "Provides several classes for http interaction.",
+	"homepage": "https://www.timonkreis.de",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Timon Kreis",
+			"email": "mail@timonkreis.de",
+			"homepage": "https://www.timonkreis.de",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"basic-auth",
+		"cookie",
+		"htpasswd",
+		"http",
+		"session"
+	],
+	"require": {
+		"php": ">=7.2",
+		"ext-json": "*"
+	},
+	"require-dev": {
+		"tk-framework/test": "^1.1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Http\\": "src"
+		}
+	}
+}
